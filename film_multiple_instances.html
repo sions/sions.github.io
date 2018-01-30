@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@id": "12546432",
+  "@type": "Movie",
+  "name": "Forrest Gump",
+  "url": "http://www.example.com/forrest_gump",
+  "description": "A man with a low I.Q. has accomplished great things in his life and been present during significant historic events.",
+  "releasedEvent": {
+    "@type": "PublicationEvent",
+    "startDate": "1994-07-06",
+    "location": {
+      "@type": "Country",
+      "name": "US"
+    }
+  },
+  "itemReviewed": ["",""],
+  "publisher": [
+  	{
+    	"@type": "Person",
+        "sameAs": "adasdhttp://www.hulu.com/"
+    },
+    {
+       "@type": "Person",
+       "name": "sdsds" ,
+       "sameAs": "adasdhttp://www.hulu.com/"
+    }
+  ],
+  "potentialAction": {
+    "@type": "WatchAction",
+    "target": [
+      {
+        "@type": "EntryPoint",
+        "urlTemplate": "http://www.example.com/forrest_gump?autoplay=true",
+        "inLanguage": "en",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform",
+          "http://schema.org/IOSPlatform",
+          "http://schema.googleapis.com/GoogleVideoCast"
+        ]
+      },
+      {
+        "@type": "EntryPoint",
+        "urlTemplate": "android-app://com.app.foo/bar/forrest_gump?autoplay=true",
+        "inLanguage": "en",
+        "actionPlatform": "http://schema.org/AndroidPlatform"
+      }
+    ],
+    "expectsAcceptanceOf": {
+      "@type": "Offer",
+      "availabilityStarts": "2015-01-01T00:00",
+      "availabilityEnds": "2015-12-31T00:00",
+      "category": "subscription",
+      "name": "Hulu Plus",
+      "price": 7.99,
+      "priceCurrency": "USD",
+      "seller": {
+        "@type": "Organization",
+        "name": "Hulu",
+        "sameAs": "asdas foo bar"
+      },
+      "eligibleRegion": {
+        "@type": "Country",
+        "name": "US"
+      }
+    }
+  },
+  "hasPart": {
+    "@type": "Clip",
+    "description": "trailer",
+    "timeRequired": "PT2M5S",
+    "potentialAction": {
+      "@type": "WatchAction",
+      "target": [
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "http://www.example.com/watch/2356866",
+          "inLanguage": "en",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform",
+            "http://schema.org/IOSPlatform",
+            "http://schema.googleapis.com/GoogleVideoCast"
+          ]
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "android-app://com.app.foo/bar/watch/2356866",
+          "inLanguage": "en",
+          "actionPlatform": "http://schema.org/AndroidPlatform"
+        }
+      ],
+      "expectsAcceptanceOf": {
+        "category": "free",
+        "availabilityStarts": "2014-09-01T00:00",
+        "availabilityEnds": "2015-09-01T00:00",
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "US"
+        }
+      }
+    }
+  },
+  "image": [
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+   ],
+  "sameAs": "asdas foo bar",
+  "actor": {
+    "@type": "Person",
+    "name": "Tom Hanks",
+    "sameAs": "http://www.imdb.com/name/nm0000158/"
+  },
+  "director": {
+    "@type": "Person",
+    "name": "Robert Zemeckis",
+    "sameAs": "http://www.imdb.com/name/nm0000709/"
+  },
+  "duration": "PT2H22M"
+  
+}
